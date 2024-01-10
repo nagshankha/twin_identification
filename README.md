@@ -12,7 +12,9 @@ This module compares the grains in a certain snapshot of nanocrystalline deforma
 
 This module has three classes: ReadOrientationFile, FindGrainCorrespondence, CalculateDisorientationAngles
 
-class *ReadOrientationFile*: Read the GrainSegmentationAnalysis file generated with the grain_segmentation_analysis module mentioned above. 
+-class *ReadOrientationFile*: Read the GrainSegmentationAnalysis file generated with the grain_segmentation_analysis module mentioned above. 
 
-class *FindGrainCorrespondence*: Enlists the correspondence by GrainID of grains in the current nanocrystalline configuration with grains in the same location in the initial reference system configuration.
+-class *FindGrainCorrespondence*: Enlists the correspondence by GrainID of grains in the current nanocrystalline snapshot with grains in the same location in the initial reference system snapshot.
+
+-class *CalculateDisorientationAngles*: Using the orientation quarternion for each grain stores in the GrainSegmentationAnalysis file and the grain correspondences calculated in the class FindGrainCorrespondence, the misorientation angle is calculated for every grain in the current nanocrystalline snapshot with respect to the corresponding grains in the initial reference snapshot.
 
