@@ -8,4 +8,6 @@ This module uses the Grain segmentation modifier implemented in OVITO open-sourc
 
 **calculate_disorientation.py**
 
+This module has three classes: ReadOrientationFile, FindGrainCorrespondence, CalculateDisorientationAngles
+
 
