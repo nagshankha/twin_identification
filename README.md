@@ -22,3 +22,6 @@ This module has three classes: ReadOrientationFile, FindGrainCorrespondence, Cal
 
 This module uses the dump files generated with misorientation angles by calculate_disorientation.py to identify fcc atoms with twin orientation.
 
+**io_files.py**
+
+A module for reading and writing LAMMPS data and dump files and VTK files. 
